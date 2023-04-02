@@ -1,5 +1,8 @@
 public class Operators {
     public static void main(String[] args) {
+        // Binary arithmetic operators are +, -, *, / and %
+        // Unary arithmetic operators are ++ and --
+
         // binary arithmetic operators
         System.out.println("binary arithmetic operators");
 
@@ -14,7 +17,6 @@ public class Operators {
         // modulo
         int d = a % b;
         System.out.println("a % b = " + d + "\n");
-
 
 
         // unary arithmetic operators (prefix and postfix notation
