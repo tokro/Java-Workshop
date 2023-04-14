@@ -20,7 +20,7 @@ public class Operators {
 
 
         // unary arithmetic operators (prefix and postfix notation
-        System.out.println("unary arithmetic operators (prefix and postfix notation");
+        System.out.println("unary arithmetic operators (prefix and postfix notation)");
 
         int e = 5;
         int f = 3;
