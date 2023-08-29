@@ -1,4 +1,7 @@
-# Java-Basics-Workshop
+<h1 align="center">Java-Basics-Workshop</h1>
+<h3 align="center">Free sample exercises to get started with Java</h3>
+
+---
 
 This is a github repository with exercises for a Java basics workshop.
 The repository is divided into several folders, which contain the exercises for the different topics.
@@ -22,16 +25,19 @@ Detailed instructions on how to open and complete the exercises as projects in E
 
 This project contains multiple topics with Java code for learning purposes.
 
-| No | Topic                       |
-|---:|-----------------------------|
-|   1| Hello World                 |
-|   2| Operators                   |
-|   3| Control Structures          |
-|   4| Arrays                      |
-|   5| Input                       |
-|   6| Methods                     |
-|   7| Object Oriented Programming |
+| No | Topic                                                                                                                   |
+|---:|-------------------------------------------------------------------------------------------------------------------------|
+|   1| <a href="https://github.com/tokro/Java-Workshop/tree/main/01_HelloWorld">Hello World</a>                                |
+|   2| <a href="https://github.com/tokro/Java-Workshop/tree/main/02_Operators">Operators</a>                                   |
+|   3| <a href="https://github.com/tokro/Java-Workshop/tree/main/03_ControlStructures">Control Structures</a>                  |
+|   4| <a href="https://github.com/tokro/Java-Workshop/tree/main/04_Arrays">Arrays</a>                                         |
+|   5| <a href="https://github.com/tokro/Java-Workshop/tree/main/05_InputOutput">Input & Output</a>                            |
+|   6| <a href="https://github.com/tokro/Java-Workshop/tree/main/06_Methods">Methods</a>                                       |
+|   7| <a href="https://github.com/tokro/Java-Workshop/tree/main/07_ObjectOrientedProgramming">Object Oriented Programming</a> |
 
-## Author
+---
 
-- tokro
+<p align="center">
+Author:<br>
+<a href="https://github.com/tokro">tokro</a>
+</p>
