@@ -11,7 +11,7 @@ To run this project you will need:
 - Java Development Kit (JDK) 11 or higher ([download](https://www.oracle.com/java/technologies/downloads/))
 
 and any Java development environment, such as:
-- Eclipse IDE ([download](https://www.eclipse.org/downloads/))
+- Eclipse IDE ([download](https://www.eclipse.org/downloads/)) or
 - IntelliJ IDEA Community Edition ([download](https://www.jetbrains.com/idea/download/?fromIDE=#section=windows))
 
 ## Installation
