@@ -3,9 +3,15 @@
 
 ---
 
+[![en](https://img.shields.io/badge/lang-en-blue.svg)](https://github.com/tokro/Java-Workshop/blob/main/README.MD)
+[![de](https://img.shields.io/badge/lang-de-red.svg)](https://github.com/tokro/Java-Workshop/blob/main/README.de.md)
+
 This is a github repository with exercises for a Java basics workshop.
 The repository is divided into several folders, which contain the exercises for the different topics.
-The java file with the name of the topic (e.g. Operators.java) contains examples for reference. In addition, there are files with the attachments _task and _solution. The task file contains a task with exercises for the respective topic. The solution file contains a corresponding solution. It should be noted that these are only sample solutions, as there are different ways of solving the problem.
+The java file with the name of the topic (e.g. Operators.java) contains examples for reference.<br>
+In addition, there are files with the attachments _task and _solution. The task file contains a task with exercises for the respective topic.<br>
+The solution file contains a corresponding solution.
+It should be noted that these are only sample solutions, as there are different ways of solving the problem.
 
 # Content
 
@@ -24,8 +30,6 @@ This project contains multiple topics with Java code for learning purposes.
 ---
 
 # Getting started
-
-Detailed instructions on how to open and complete the exercises as projects in Eclipse and IntelliJ follow.
 
 ## Installing the Java Development Kit (JDK)
 
@@ -59,17 +63,15 @@ You can download the JDK from the <a target="_blank" rel="noopener noreferrer" h
  - [x64 RPM Package](https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.rpm) ([sha256](https://download.oracle.com/java/21/latest/jdk-21_linux-x64_bin.rpm.sha256)) ([OL 8 GPG Key](https://linux.oracle.com/security/gpg/))
 </details>
 
-## Compile and Execute .java files in Command Prompt
+## Compile and Execute .java files in Command Prompt / Terminal
 
 This tutorial will guide you through the process of compiling and executing Java programs using the Command Prompt / Terminal.
 
 ### Step 1: Open Command Prompt / Terminal
 
-<b>Windows:</b> Press `Win + R`, type `cmd`, and press Enter to open the Command Prompt.
-
-<b>macOS:</b> You can open the Terminal by using Spotlight (press `Cmd + Space` and start typing "Terminal") or by navigating to `Applications -> Utilities -> Terminal`.
-
-<b>Linux:</b> You can open the Terminal by searching for it in your application menu or using a keyboard shortcut.
+- <b>Windows:</b> Press `Win + R`, type `cmd`, and press Enter to open the Command Prompt.
+- <b>macOS:</b> You can open the Terminal by using Spotlight (press `Cmd + Space` and start typing "Terminal") or by navigating to `Applications -> Utilities -> Terminal`.
+- <b>Linux:</b> You can open the Terminal by searching for it in your application menu or using a keyboard shortcut.
 
 ### Step 2: Navigate to the Directory
 Use the `cd` command to navigate to the directory where your `.java` file is located. For example:
@@ -104,9 +106,7 @@ Hello, World!
 
 # Troubleshooting
 - If you encounter errors during compilation, review your code for syntax errors and ensure that your JDK is installed correctly.
-
 - Ensure that your Command Prompt is using the correct Java version. You can check the Java version with `java -version`.
-
 - Make sure you are in the correct directory when compiling and running your Java program. Use the `cd` command to navigate to the correct directory.
 
 ---
