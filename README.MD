@@ -21,6 +21,8 @@ This project contains multiple topics with Java code for learning purposes.
 |   6| <a target="_blank" rel="noopener noreferrer" href="https://github.com/tokro/Java-Workshop/tree/main/06_Methods">Methods</a>                                       |
 |   7| <a target="_blank" rel="noopener noreferrer" href="https://github.com/tokro/Java-Workshop/tree/main/07_ObjectOrientedProgramming">Object Oriented Programming</a> |
 
+---
+
 # Getting started
 
 Detailed instructions on how to open and complete the exercises as projects in Eclipse and IntelliJ follow.
@@ -29,47 +31,45 @@ Detailed instructions on how to open and complete the exercises as projects in E
 
 The Java Development Kit combines development tools, libraries, the Java Runtime Environment (JRE), and the Java Virtual Machine (JVM).
 
-As of August 2023 JDK 17 ist the most recent Long-Term-Support (LTS) Version.
-
-### What is the difference between LTS and Non-LTS versions?
-
-**LTS:** These versions receive long-term support and updates for an extended period.\
-**Non-LTS:** These versions are suitable if you want to take advantage of the latest language features and libraries, but they might have a shorter support window.
-
 ### Download
 
-You can download the JDK from the <a target="_blank" rel="noopener noreferrer" href="https://www.oracle.com/java/technologies/downloads/#java17">official Oracle website</a> or directly via the following links (JDK 17).
+You can download the JDK from the <a target="_blank" rel="noopener noreferrer" href="https://www.oracle.com/java/technologies/downloads/#java21">official Oracle website</a> or directly via the following links (JDK 21).
 
 <details>
   <summary>Windows</summary>
   
-  - [x64 Installer](https://download.oracle.com/java/17/latest/jdk-17_windows-x64_bin.exe)
-  - [x64 MSI Installer](https://download.oracle.com/java/17/latest/jdk-17_windows-x64_bin.msi)
+  - [x64 Installer](https://download.oracle.com/java/21/latest/jdk-21_windows-x64_bin.exe) ([sha256](https://download.oracle.com/java/21/latest/jdk-21_windows-x64_bin.exe.sha256))
+  - [x64 MSI Installer](https://download.oracle.com/java/21/latest/jdk-21_windows-x64_bin.msi) ([sha256](https://download.oracle.com/java/21/latest/jdk-21_windows-x64_bin.msi.sha256))
 </details>
 
 <details>
  <summary>macOS</summary>
 
- - [Intel](https://download.oracle.com/java/17/latest/jdk-17_macos-x64_bin.dmg)
- - [Apple Silicon (M)](https://download.oracle.com/java/17/latest/jdk-17_macos-aarch64_bin.dmg)
+ - [Intel](https://download.oracle.com/java/21/latest/jdk-21_macos-x64_bin.dmg) ([sha256](https://download.oracle.com/java/21/latest/jdk-21_macos-x64_bin.dmg.sha256))
+ - [Apple Silicon (M)](https://download.oracle.com/java/21/latest/jdk-21_macos-aarch64_bin.dmg) ([sha256](https://download.oracle.com/java/21/latest/jdk-21_macos-aarch64_bin.dmg.sha256))
 </details>
 
 <details>
  <summary>Linux</summary>
 
- - [ARM64 Compressed Archive](https://download.oracle.com/java/17/latest/jdk-17_linux-aarch64_bin.tar.gz)
- - [ARM64 RPM Package](https://download.oracle.com/java/17/latest/jdk-17_linux-aarch64_bin.rpm)
- - [x64 Compressed Archive](https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.tar.gz)
- - [x64 Debian Package](https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.deb)
- - [x64 RPM Package](https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.rpm)
+ - [ARM64 Compressed Archive](https://download.oracle.com/java/21/latest/jdk-21_linux-aarch64_bin.tar.gz) ([sha256](https://download.oracle.com/java/21/latest/jdk-21_linux-aarch64_bin.tar.gz.sha256))
+ - [ARM64 RPM Package](https://download.oracle.com/java/17/latest/jdk-17_linux-aarch64_bin.rpm) ([sha256](https://download.oracle.com/java/21/latest/jdk-21_linux-aarch64_bin.rpm.sha256)) ([OL 8 GPG Key](https://linux.oracle.com/security/gpg/))
+ - [x64 Compressed Archive](https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.tar.gz) ([sha256](https://download.oracle.com/java/21/latest/jdk-21_linux-x64_bin.tar.gz.sha256))
+ - [x64 Debian Package](https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.deb) ([sha256](https://download.oracle.com/java/21/latest/jdk-21_linux-x64_bin.deb.sha256))
+ - [x64 RPM Package](https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.rpm) ([sha256](https://download.oracle.com/java/21/latest/jdk-21_linux-x64_bin.rpm.sha256)) ([OL 8 GPG Key](https://linux.oracle.com/security/gpg/))
 </details>
 
 ## Compile and Execute .java files in Command Prompt
 
-This tutorial will guide you through the process of compiling and executing Java programs using the Command Prompt (CMD) on Windows.
+This tutorial will guide you through the process of compiling and executing Java programs using the Command Prompt / Terminal.
 
-### Step 1: Open Command Prompt
-Press `Win + R`, type `cmd`, and press Enter to open the Command Prompt.
+### Step 1: Open Command Prompt / Terminal
+
+<b>Windows:</b> Press `Win + R`, type `cmd`, and press Enter to open the Command Prompt.
+
+<b>macOS:</b> You can open the Terminal by using Spotlight (press `Cmd + Space` and start typing "Terminal") or by navigating to `Applications -> Utilities -> Terminal`.
+
+<b>Linux:</b> You can open the Terminal by searching for it in your application menu or using a keyboard shortcut.
 
 ### Step 2: Navigate to the Directory
 Use the `cd` command to navigate to the directory where your `.java` file is located. For example:
@@ -102,7 +102,7 @@ You should see the output on the screen:
 Hello, World!
 ```
 
-## Troubleshooting
+# Troubleshooting
 - If you encounter errors during compilation, review your code for syntax errors and ensure that your JDK is installed correctly.
 
 - Ensure that your Command Prompt is using the correct Java version. You can check the Java version with `java -version`.
