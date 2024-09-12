@@ -4,7 +4,7 @@
 ---
 
 [![en](https://img.shields.io/badge/lang-en-blue.svg)](https://github.com/tokro/Java-Workshop/blob/main/README.MD)
-[![de](https://img.shields.io/badge/lang-de-red.svg)](https://github.com/tokro/Java-Workshop/blob/main/README.de.MD)
+[![de](https://img.shields.io/badge/lang-de-red.svg)](https://github.com/tokro/Java-Workshop/blob/main/README.de.md)
 
 Dies ist ein GitHub-Repository mit Übungen für einen Java-Grundlagen-Workshop.
 Das Repository ist in mehrere Ordner unterteilt, die Übungen zu verschiedenen Themen enthalten.
