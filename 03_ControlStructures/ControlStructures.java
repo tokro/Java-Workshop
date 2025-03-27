@@ -40,6 +40,7 @@ public class ControlStructures {
             case 8:
             case 9:
                 System.out.println("Number between 4 and 9");
+                break;
             default:
                 System.out.println("Not a valid number");
         }
